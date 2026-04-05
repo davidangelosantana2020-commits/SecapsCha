@@ -46,12 +46,12 @@ export default function App() {
   // Gerenciador de SEO (Meta Tags e Título dinâmico)
   useEffect(() => {
     const seoData = {
-      landing: { title: 'Secaps Black Chá | Emagrecimento Natural', desc: 'Descubra como o Secaps Black Chá com Hibisco e Cúrcuma apoia seu metabolismo.' },
-      vsl: { title: 'Apresentação Exclusiva | Secaps Black Chá', desc: 'Assista ao vídeo e descubra o método natural.' },
-      privacy: { title: 'Política de Privacidade | Secaps', desc: 'Nossa política de proteção de dados.' },
-      terms: { title: 'Termos de Serviço | Secaps', desc: 'Termos de uso do nosso site.' },
-      studies: { title: 'Estudos Científicos | Secaps', desc: 'A ciência por trás da nossa fórmula.' },
-      contact: { title: 'Contato | Secaps Black Chá', desc: 'Fale conosco para tirar suas dúvidas.' }
+      landing: { title: 'SECAPS BLACK CHÁ | Emagrecimento Natural', desc: 'Descubra como o SECAPS BLACK CHÁ com Hibisco e Cúrcuma apoia seu metabolismo.' },
+      vsl: { title: 'Apresentação Exclusiva | SECAPS BLACK CHÁ', desc: 'Assista ao vídeo e descubra o método natural.' },
+      privacy: { title: 'Política de Privacidade | SECAPS BLACK CHÁ', desc: 'Nossa política de proteção de dados.' },
+      terms: { title: 'Termos de Serviço | SECAPS BLACK CHÁ', desc: 'Termos de uso do nosso site.' },
+      studies: { title: 'Estudos Científicos | SECAPS BLACK CHÁ', desc: 'A ciência por trás da nossa fórmula.' },
+      contact: { title: 'Contato | SECAPS BLACK CHÁ', desc: 'Fale conosco para tirar suas dúvidas.' }
     };
 
     const currentSEO = seoData[currentPage];
@@ -124,19 +124,19 @@ export default function App() {
       <div className="prose prose-invert max-w-none space-y-8 text-white/70 leading-relaxed">
         <section>
           <h2 className="text-2xl font-display font-bold text-white mb-4">1. Aceitação dos Termos</h2>
-          <p>Ao acessar o site Secaps Black, você concorda em cumprir estes termos de serviço, todas as leis e regulamentos aplicáveis e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis.</p>
+          <p>Ao acessar o site SECAPS BLACK CHA, você concorda em cumprir estes termos de serviço, todas as leis e regulamentos aplicáveis e concorda que é responsável pelo cumprimento de todas as leis locais aplicáveis.</p>
         </section>
         <section>
           <h2 className="text-2xl font-display font-bold text-white mb-4">2. Uso de Licença</h2>
-          <p>É concedida permissão para baixar temporariamente uma cópia dos materiais no site Secaps Black apenas para visualização transitória pessoal e não comercial.</p>
+          <p>É concedida permissão para baixar temporariamente uma cópia dos materiais no site SECAPS BLACK CHA apenas para visualização transitória pessoal e não comercial.</p>
         </section>
         <section>
           <h2 className="text-2xl font-display font-bold text-white mb-4">3. Isenção de Responsabilidade</h2>
-          <p>Os materiais no site da Secaps Black são fornecidos 'como estão'. Não oferecemos garantias, expressas ou implícitas, e por este meio isentamos e negamos todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização.</p>
+          <p>Os materiais no site da SECAPS BLACK CHA são fornecidos 'como estão'. Não oferecemos garantias, expressas ou implícitas, e por este meio isentamos e negamos todas as outras garantias, incluindo, sem limitação, garantias implícitas ou condições de comercialização.</p>
         </section>
         <section>
           <h2 className="text-2xl font-display font-bold text-white mb-4">4. Limitações</h2>
-          <p>Em nenhum caso a Secaps Black ou seus fornecedores serão responsáveis por quaisquer danos decorrentes do uso ou da incapacidade de usar os materiais em nosso site.</p>
+          <p>Em nenhum caso a SECAPS BLACK CHA ou seus fornecedores serão responsáveis por quaisquer danos decorrentes do uso ou da incapacidade de usar os materiais em nosso site.</p>
         </section>
       </div>
     </motion.div>
@@ -144,7 +144,7 @@ export default function App() {
 
   const StudiesPage = () => (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="pt-32 pb-24 max-w-5xl mx-auto px-6">
-      <PageHeader title="A Ciência por trás do Secaps Black Chá" subtitle="Evidências clínicas e estudos sobre nossos ingredientes premium: Hibisco e Cúrcuma." />
+      <PageHeader title="A Ciência por trás do SECAPS BLACK CHÁ" subtitle="Evidências clínicas e estudos sobre nossos ingredientes premium: Hibisco e Cúrcuma." />
       <div className="grid md:grid-cols-2 gap-8">
         {[
           { title: "Hibisco (Hibiscus sabdariffa)", content: "Estudos comprovam que o Hibisco auxilia na redução da retenção de líquidos e no controle da pressão arterial, sendo um potente aliado contra o inchaço abdominal.", ref: "Ref: Journal of Ethnopharmacology, 2021." },
@@ -164,9 +164,9 @@ export default function App() {
 
   const ContactPage = () => (
     <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} className="pt-32 pb-24 max-w-4xl mx-auto px-6 text-center">
-      <PageHeader title="Contato" subtitle="Estamos aqui para apoiar sua jornada com Secaps Black Chá." />
+      <PageHeader title="Contato" subtitle="Estamos aqui para apoiar sua jornada com SECAPS BLACK CHÁ." />
       <div className="card-dark max-w-2xl mx-auto p-12">
-        <p className="text-white/60 mb-8">Nossa equipe está disponível no WhatsApp para tirar todas as suas dúvidas sobre o Secaps Black Chá.</p>
+        <p className="text-white/60 mb-8">Nossa equipe está disponível no WhatsApp para tirar todas as suas dúvidas sobre o SECAPS BLACK CHÁ.</p>
         <div className="space-y-6">
           <a 
             href="https://wa.me/seunumerowhatsapp" 
@@ -211,7 +211,7 @@ export default function App() {
                 Conquiste uma Rotina mais Leve e <span className="italic text-turquoise">Ative seu Metabolismo com o Sabor Irresistível do Morango</span>
               </h1>
               <p className="text-lg md:text-xl text-white/70 mb-10 max-w-xl leading-relaxed">
-                Conheça o <span className="text-turquoise">Secaps Black Chá</span>: o suplemento solúvel 100% natural que se adapta perfeitamente ao seu dia a dia para transformar seu bem-estar.
+                Conheça o <span className="text-turquoise tracking-wide">SECAPS BLACK CHÁ</span>: o suplemento solúvel 100% natural que se adapta perfeitamente ao seu dia a dia para transformar seu bem-estar.
               </p>
               
               <div className="flex flex-col sm:flex-row gap-4">
@@ -239,7 +239,7 @@ export default function App() {
               <div className="absolute -inset-4 bg-primary/20 blur-3xl rounded-full"></div>
               <img 
                 src="https://i.postimg.cc/v8C2dN9M/Gemini_Generated_Image_58ha0t58ha0t58ha.png" 
-                alt="Secaps Black Chá Lifestyle" 
+                alt="SECAPS BLACK CHÁ Lifestyle" 
                 className="relative z-10 rounded-3xl shadow-2xl border border-white/10"
                 referrerPolicy="no-referrer"
               />
@@ -250,7 +250,7 @@ export default function App() {
                   </div>
                   <div>
                     <p className="text-xs text-white/50 uppercase tracking-widest font-bold">Premium Edition</p>
-                    <p className="font-display font-bold">Secaps Black Chá</p>
+                    <p className="font-display font-bold">SECAPS BLACK CHÁ</p>
                   </div>
                 </div>
               </div>
@@ -280,7 +280,7 @@ export default function App() {
                   />
                   <img 
                     src="https://i.postimg.cc/kX81MvF7/Gemini_Generated_Image_qhahm6qhahm6qhah.png" 
-                    alt="Secaps Black Chá Produto" 
+                    alt="SECAPS BLACK CHÁ Produto" 
                     className="absolute -right-4 -bottom-4 w-1/2 h-auto object-contain z-20 drop-shadow-2xl"
                     referrerPolicy="no-referrer"
                   />
@@ -304,7 +304,7 @@ export default function App() {
               </h2>
               <div className="space-y-6 text-white/70 text-lg leading-relaxed">
                 <p>
-                  A combinação poderosa de Hibisco e Cúrcuma no Secaps Black Chá atua diretamente na retenção de líquidos e na melhora da digestão.
+                  A combinação poderosa de Hibisco e Cúrcuma no SECAPS BLACK CHÁ atua diretamente na retenção de líquidos e na melhora da digestão.
                 </p>
                 <blockquote className="border-l-4 border-turquoise pl-6 py-2 italic bg-turquoise/5 rounded-r-xl">
                   Elimine o inchaço abdominal e conquiste um emagrecimento sustentável, sem a necessidade de dietas extremas ou restritivas.
@@ -433,7 +433,7 @@ export default function App() {
           >
             <h2 className="text-4xl md:text-6xl font-display font-black mb-8">Sua Transformação Começa Hoje</h2>
             <p className="text-xl text-white/70 mb-12">
-              Não adie mais a versão que você merece ser. Junte-se a milhares de pessoas que já encontraram seu equilíbrio com Secaps Black Chá.
+              Não adie mais a versão que você merece ser. Junte-se a milhares de pessoas que já encontraram seu equilíbrio com SECAPS BLACK CHÁ.
             </p>
             <button 
               onClick={() => setCurrentPage('vsl')}
@@ -466,35 +466,26 @@ export default function App() {
           Acesso Exclusivo Liberado
         </div>
         <h1 className="text-3xl md:text-5xl lg:text-6xl font-display font-black leading-tight mb-6">
-          O Segredo Revelado: Como Ativar seu <span className="text-turquoise">Metabolismo com Secaps Black Chá</span>
+          O Segredo Revelado: Como Ativar seu Metabolismo com <span className="text-turquoise tracking-widest">SECAPS BLACK CHÁ</span>
         </h1>
         <p className="text-lg text-white/60 max-w-2xl mx-auto">
           Assista ao vídeo abaixo até o final para descobrir como nossa fórmula de Hibisco e Cúrcuma está transformando rotinas.
         </p>
       </div>
 
-      {/* Video Player Placeholder */}
-      <div className="relative aspect-video bg-black rounded-3xl overflow-hidden border border-white/10 shadow-2xl group cursor-pointer">
-        <img 
-          src="https://images.unsplash.com/photo-1518311447627-7567ad460ad5?q=80&w=1200&auto=format&fit=crop" 
-          alt="Video Thumbnail" 
-          className="w-full h-full object-cover opacity-40 group-hover:scale-105 transition-transform duration-700"
-          referrerPolicy="no-referrer"
-        />
-        <div className="absolute inset-0 flex flex-col items-center justify-center gap-6">
-          <div className="w-24 h-24 bg-primary rounded-full flex items-center justify-center shadow-2xl shadow-primary/50 group-hover:scale-110 transition-transform duration-300">
-            <Play size={40} fill="currentColor" className="ml-2" />
-          </div>
-          <div className="flex items-center gap-2 bg-black/60 backdrop-blur-md px-4 py-2 rounded-full border border-white/10">
-            <Volume2 size={18} className="text-turquoise" />
-            <span className="text-sm font-bold uppercase tracking-widest">Clique para Ativar o Áudio</span>
-          </div>
-        </div>
-        
-        {/* Fake Progress Bar */}
-        <div className="absolute bottom-0 left-0 right-0 h-1.5 bg-white/10">
-          <div className="h-full bg-turquoise w-1/3"></div>
-        </div>
+      {/* Video Player */}
+      <div className="relative aspect-video bg-black rounded-3xl overflow-hidden border border-white/10 shadow-2xl">
+        <iframe 
+          width="100%" 
+          height="100%" 
+          src="https://www.youtube.com/embed/mTFZPrDgHbw?si=6IA-Ge3Cvkafbtu4" 
+          title="YouTube video player" 
+          frameBorder="0" 
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
+          referrerPolicy="strict-origin-when-cross-origin" 
+          allowFullScreen
+          className="absolute inset-0 w-full h-full"
+        ></iframe>
       </div>
 
       <div className="mt-16 text-center">
@@ -505,7 +496,7 @@ export default function App() {
         >
           {/* LINK DE AFILIADO CORRIGIDO AQUI */}
           <a 
-            href="COLOQUE_SEU_LINK_DE_AFILIADO_AQUI" 
+            href="https://pay.hest.com.br/d52c771a-a68f-43b6-ab33-292c5bcd8903" 
             target="_blank" 
             rel="noopener noreferrer" 
             className="btn-primary text-xl px-12 py-6 flex items-center justify-center gap-3 mx-auto max-w-md hover:scale-105 transition-transform cursor-pointer"
@@ -548,8 +539,8 @@ export default function App() {
             className="flex items-center gap-2 cursor-pointer"
             onClick={() => setCurrentPage('landing')}
           >
-            <span className="text-2xl font-display font-black tracking-tighter text-white">
-              Secaps <span className="text-turquoise">Chá</span>
+            <span className="text-2xl font-display font-black tracking-widest text-white">
+              SECAPS <span className="text-turquoise">BLACK CHÁ</span>
             </span>
           </div>
 
@@ -611,10 +602,10 @@ export default function App() {
         <div className="max-w-7xl mx-auto px-6">
           <div className="flex flex-col md:flex-row justify-between items-center gap-8 mb-12">
             <div 
-              className="text-2xl font-display font-black tracking-tighter cursor-pointer text-white"
+              className="text-2xl font-display font-black tracking-widest cursor-pointer text-white"
               onClick={() => setCurrentPage('landing')}
             >
-              Secaps <span className="text-turquoise">Chá</span>
+              SECAPS <span className="text-turquoise">BLACK CHÁ</span>
             </div>
             <div className="flex flex-wrap justify-center gap-6 text-sm text-white/50">
               <button onClick={() => setCurrentPage('landing')} className="hover:text-primary transition-colors cursor-pointer">Início</button>
@@ -625,7 +616,7 @@ export default function App() {
             </div>
           </div>
           <div className="text-center text-xs text-white/30">
-            <p>© 2024 Secaps Black Chá. Editorial Soberano. Todos os Direitos Reservados.</p>
+            <p>© 2024 SECAPS BLACK CHÁ. Editorial Soberano. Todos os Direitos Reservados.</p>
             <p className="mt-2 font-bold text-turquoise/80">Recomendado para maiores de 18 anos.</p>
             <div className="mt-8 max-w-4xl mx-auto px-4 opacity-50 leading-relaxed uppercase tracking-tighter">
               ESTE SITE NÃO É AFILIADO AO FACEBOOK OU A QUALQUER ENTIDADE DO FACEBOOK. DEPOIS QUE VOCÊ SAIR DO FACEBOOK, A RESPONSABILIDADE NÃO É DELES E SIM DO NOSSO SITE. FAZEMOS TODOS OS ESFORÇOS PARA INDICAR CLARAMENTE E MOSTRAR TODAS AS PROVAS DO PRODUTO E USAR RESULTADOS REAIS.
